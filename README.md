@@ -1,33 +1,24 @@
-Author: Sungjun Kim
+![C++](https://img.shields.io/badge/-C++-000?style=flat&logo=C++)
 
-Purpose:  This program creates reports based on the data given from a file holding information on number of
-          farms an animals based on region, sub-region and year for each type of animal
+# Report Generator 
+> This program generates reports based on the data provided by the user. <br/> 
 
-Source Files:
-                ChangeAnimalGenerator.cc
-                Control.cc
-                main.cc
-                Record.cc
-                RegionAnimalGenerator.cc
-                ReportGenerator.cc
-                SubWithHorseGenerator.cc
-                View.cc
+Made-by: Josh Kim ([LemonTii](https://github.com/LemonTii))
 
-Header Files:
-                ChangeAnimalGenerator.h
-                CompareBehaviour.h
-                Control.h
-                Map.h
-                Record.h
-                RegionAnimalGenerator.h
-                ReportData.h
-                ReportGenerator.h
-                SubWithHorseGenerator.h
-                View.h
+## Requirements:
+ - Able to execute C++ Programs  
 
-To Compile: Call the Makefile by opening up the terminal, navigating to the directory containing this program and using the command "make". Then use the command ./fp to run the program.
-            The first report will be saved in RegionAnimal.txt
-            The second report will be saved in ChangeAnimal.txt
-            The third report will be saved in SubWithHorse.txt
+## Built With
+* C++         
 
-            Note: Make sure you have the farms.dat file inside this directory
+## Building the Application
+
+You will first need to clone the repository to your local machine:
+```
+git clone https://github.com/LemonTii/ReportGenerator.git
+```
+
+## Run the Application
+
+* Run the makefile
+* Run `./fp` in the terminal
